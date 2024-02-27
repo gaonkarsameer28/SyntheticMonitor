@@ -1,0 +1,57 @@
+[
+  {
+    "scenario_name": "Login",
+    "steps": [
+      {
+        "action": "open_url",
+        "url": "https://example.com/"
+      },
+      {
+        "action": "find_element",
+        "locator": "ID",
+        "value": "UserName"
+      },
+      {
+        "action": "send_keys",
+        "value": "*******"
+      },
+      {
+        "action": "find_element",
+        "locator": "ID",
+        "value": "Password"
+      },
+      {
+        "action": "send_keys",
+        "value": "*********"
+      },
+      {
+        "action": "find_element",
+        "locator": "ID",
+        "value": "login"
+      },
+      {
+        "action": "click_element",
+        "locator": "ID",
+        "value": "login"
+      }
+    ]
+  } ,
+  {
+    "scenario_name": "LandingPage",
+    "steps": [
+      {
+        "action": "open_url",
+        "url": "https://example.com/LandingPage"
+      }
+    ]
+  } ,
+  {
+    "scenario_name": "Logout",
+    "steps": [
+      {
+        "action": "open_url",
+        "url": "https://example.com/Logout"
+      }
+    ]
+  } 
+]
