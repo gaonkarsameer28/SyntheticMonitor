@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 
 # Load the JSON data
-with open("C:\\Users\\sgaonkar\\OneDrive - GEP\\Tasks\\SRE\\Tasks\\synthetic monitor\\InputParam.json", "r") as f:
+# mention your correct file path 
+with open("..//InputParam.json", "r") as f:
     scenarios = json.load(f)
 # Initialize the driver outside the scenario loop
 driver = webdriver.Chrome()  # Replace with your desired browser driver path
